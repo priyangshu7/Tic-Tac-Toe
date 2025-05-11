@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back_gr">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:backgroundTint="#ffc8c8"
+        >
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_marginLeft="3dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_marginLeft="3dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button5"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button6"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="3dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button7"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button8"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+        <Button
+            android:id="@+id/Button9"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#f8acff"
+            android:onClick="action">
+        </Button>
+
+    </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
